@@ -1,0 +1,28 @@
+{
+  "sigma_pJ": 0.25,
+  "target_s0": 2835,
+  "none/pointwise": {
+    "traces_to_rank0": 100,
+    "final_rank": 0
+  },
+  "none/integrated": {
+    "traces_to_rank0": 1000,
+    "final_rank": 0
+  },
+  "hiding/pointwise": {
+    "traces_to_rank0": null,
+    "final_rank": 240
+  },
+  "hiding/integrated": {
+    "traces_to_rank0": null,
+    "final_rank": 522
+  },
+  "hiding+dvfs/pointwise": {
+    "traces_to_rank0": null,
+    "final_rank": 2473
+  },
+  "hiding+dvfs/integrated": {
+    "traces_to_rank0": null,
+    "final_rank": 1208
+  }
+}

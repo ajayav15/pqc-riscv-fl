@@ -1,0 +1,32 @@
+
+8. Printing statistics.
+
+=== soc_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     8131 wires
+    23754 wire bits
+      227 public wires
+     3305 public wire bits
+        6 ports
+        9 port bits
+     9927 cells
+        7   $scopeinfo
+        1   BUFG
+      298   CARRY4
+        6   DSP48E1
+     2954   FDRE
+       98   FDSE
+        3   IBUF
+      267   INV
+     2388   LUT2
+      291   LUT3
+      337   LUT4
+     2428   LUT5
+      795   LUT6
+        6   OBUF
+       12   RAM32M
+       32   RAMB36E1
+        4   SRL16E
+

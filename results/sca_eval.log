@@ -1,0 +1,38 @@
+clock offset corrected by 8.419 pJ/cycle
+TVLA none {'config': 'none', 'n_per_group': 6000, 'max_abs_t': 75.27, 'leaky_samples': 33, 'samples': 128}
+CPA none 0 [428, 1300, 0, 0, 0, 0, 0, 0, 0, 0]
+CPA none 16 [1407, 1178, 573, 816, 334, 0, 0, 0, 0, 0]
+TVLA hiding {'config': 'hiding', 'n_per_group': 6000, 'max_abs_t': 26.98, 'leaky_samples': 14, 'samples': 153}
+CPA hiding 0 [675, 860, 44, 110, 1285, 2378, 2374, 2347, 3014, 240]
+CPA hiding 16 [1594, 128, 2309, 682, 744, 1924, 3082, 2987, 3130, 522]
+TVLA hiding+dvfs {'config': 'hiding+dvfs', 'n_per_group': 6000, 'max_abs_t': 4.05, 'leaky_samples': 0, 'samples': 153}
+CPA hiding+dvfs 0 [743, 2461, 2667, 2323, 3183, 1315, 3152, 674, 2953, 2473]
+CPA hiding+dvfs 16 [1141, 2306, 1848, 2168, 2752, 1494, 2850, 627, 1969, 1208]
+{
+  "sigma_pJ": 0.25,
+  "target_s0": 2835,
+  "none/pointwise": {
+    "traces_to_rank0": 100,
+    "final_rank": 0
+  },
+  "none/integrated": {
+    "traces_to_rank0": 1000,
+    "final_rank": 0
+  },
+  "hiding/pointwise": {
+    "traces_to_rank0": null,
+    "final_rank": 240
+  },
+  "hiding/integrated": {
+    "traces_to_rank0": null,
+    "final_rank": 522
+  },
+  "hiding+dvfs/pointwise": {
+    "traces_to_rank0": null,
+    "final_rank": 2473
+  },
+  "hiding+dvfs/integrated": {
+    "traces_to_rank0": null,
+    "final_rank": 1208
+  }
+}

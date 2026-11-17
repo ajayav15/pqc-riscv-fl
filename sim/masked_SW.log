@@ -1,0 +1,5 @@
+masked_equals_ref=6
+tampered_rejected=3
+avg_dec_cycles=1166333
+avg_masked_dec_cycles=11739501
+EXIT code=0 cycles=83359307 ise_ops=270043 ise_busy_cycles=979592

@@ -1,0 +1,5 @@
+WINE 5 cycles=1165618 sram_accesses=291219 logic_zd_uJ=65.8391 logic_glitch_uJ=59.0148 (glitch value invalid: window not timing-simulated)
+WINE 6 cycles=23978346 sram_accesses=6203451 logic_zd_uJ=1349.2064 logic_glitch_uJ=1214.0137 (glitch value invalid: window not timing-simulated)
+gsim: cycles=26911516 events=0 toggles=0 E_glitch=0.000 uJ E_zero_delay=0.000 uJ glitch_overhead=-nan% timing_violations=0 (energies: timing-simulated cycles only)
+
+EXIT code=0 cycles=26911525

@@ -1,0 +1,15 @@
+# Yosys + ABC synthesis to the NanGate FreePDK45 Open Cell Library (typical corner)
+# Template variables: {TOP} {SRCS} {LIB} {OUT} {DEFINES}
+read_verilog {DEFINES} {SRCS}
+hierarchy -check -top {TOP}
+synth -top {TOP} -flatten
+dfflibmap -liberty {LIB}
+abc -liberty {LIB}
+opt_clean -purge
+hilomap -hicell LOGIC1_X1 Z -locell LOGIC0_X1 Z
+setundef -zero
+opt_clean -purge
+stat -liberty {LIB}
+tee -o {OUT}.stat.txt stat -liberty {LIB}
+write_verilog -noattr -noexpr {OUT}.v
+write_json {OUT}.json

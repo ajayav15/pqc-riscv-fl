@@ -1,0 +1,20 @@
+kem_gate seed 0 73s {'local': 0.684, 'fedavg': 0.903, 'fedavg_int8': 0.903, 'fedprox': 0.906, 'dp_fedavg': 0.867, 'centralized': 0.91, 'oneclass': 0.844}
+kem_gate seed 1 62s {'local': 0.75, 'fedavg': 0.927, 'fedavg_int8': 0.928, 'fedprox': 0.926, 'dp_fedavg': 0.887, 'centralized': 0.937, 'oneclass': 0.85}
+kem_gate seed 2 62s {'local': 0.784, 'fedavg': 0.921, 'fedavg_int8': 0.921, 'fedprox': 0.923, 'dp_fedavg': 0.803, 'centralized': 0.925, 'oneclass': 0.848}
+ascad seed 0 76s {'local': 0.707, 'fedavg': 0.824, 'fedavg_int8': 0.824, 'fedprox': 0.829, 'dp_fedavg': 0.811, 'centralized': 0.831, 'oneclass': 0.649}
+ascad seed 1 75s {'local': 0.732, 'fedavg': 0.822, 'fedavg_int8': 0.822, 'fedprox': 0.823, 'dp_fedavg': 0.786, 'centralized': 0.83, 'oneclass': 0.66}
+ascad seed 2 75s {'local': 0.716, 'fedavg': 0.866, 'fedavg_int8': 0.867, 'fedprox': 0.868, 'dp_fedavg': 0.798, 'centralized': 0.864, 'oneclass': 0.738}
+kem_gate local F1 0.740 AUC 0.783 FPR 0.030 unseen-TPR 0.429
+kem_gate fedavg F1 0.917 AUC 0.963 FPR 0.008 unseen-TPR 0.883
+kem_gate fedavg_int8 F1 0.917 AUC 0.963 FPR 0.008 unseen-TPR 0.884
+kem_gate fedprox F1 0.918 AUC 0.965 FPR 0.009 unseen-TPR 0.888
+kem_gate dp_fedavg F1 0.852 AUC 0.932 FPR 0.025 unseen-TPR 0.804
+kem_gate centralized F1 0.924 AUC 0.966 FPR 0.026 unseen-TPR 0.925
+kem_gate oneclass F1 0.847 AUC 0.951 FPR 0.028 unseen-TPR 0.804
+ascad local F1 0.718 AUC 0.790 FPR 0.080 unseen-TPR 0.525
+ascad fedavg F1 0.837 AUC 0.899 FPR 0.015 unseen-TPR 0.740
+ascad fedavg_int8 F1 0.838 AUC 0.899 FPR 0.015 unseen-TPR 0.741
+ascad fedprox F1 0.840 AUC 0.901 FPR 0.015 unseen-TPR 0.746
+ascad dp_fedavg F1 0.798 AUC 0.870 FPR 0.027 unseen-TPR 0.694
+ascad centralized F1 0.842 AUC 0.904 FPR 0.031 unseen-TPR 0.768
+ascad oneclass F1 0.682 AUC 0.878 FPR 0.032 unseen-TPR 0.560

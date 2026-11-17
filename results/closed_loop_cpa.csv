@@ -1,0 +1,81 @@
+policy,unprotected_traces,attack,n_traces,rank
+no protection,all,pointwise,25,2195
+no protection,all,pointwise,50,410
+no protection,all,pointwise,100,1
+no protection,all,pointwise,200,0
+no protection,all,pointwise,500,0
+no protection,all,pointwise,1000,0
+no protection,all,pointwise,2000,0
+no protection,all,pointwise,5000,0
+no protection,all,pointwise,10000,0
+no protection,all,pointwise,20000,0
+no protection,all,integrated,25,2309
+no protection,all,integrated,50,1251
+no protection,all,integrated,100,439
+no protection,all,integrated,200,30
+no protection,all,integrated,500,3
+no protection,all,integrated,1000,0
+no protection,all,integrated,2000,0
+no protection,all,integrated,5000,0
+no protection,all,integrated,10000,0
+no protection,all,integrated,20000,0
+always-on hiding+DVFS,0,pointwise,25,296
+always-on hiding+DVFS,0,pointwise,50,1289
+always-on hiding+DVFS,0,pointwise,100,80
+always-on hiding+DVFS,0,pointwise,200,1384
+always-on hiding+DVFS,0,pointwise,500,1337
+always-on hiding+DVFS,0,pointwise,1000,2669
+always-on hiding+DVFS,0,pointwise,2000,2334
+always-on hiding+DVFS,0,pointwise,5000,61
+always-on hiding+DVFS,0,pointwise,10000,1193
+always-on hiding+DVFS,0,pointwise,20000,411
+always-on hiding+DVFS,0,integrated,25,136
+always-on hiding+DVFS,0,integrated,50,1945
+always-on hiding+DVFS,0,integrated,100,727
+always-on hiding+DVFS,0,integrated,200,1611
+always-on hiding+DVFS,0,integrated,500,1932
+always-on hiding+DVFS,0,integrated,1000,1871
+always-on hiding+DVFS,0,integrated,2000,1718
+always-on hiding+DVFS,0,integrated,5000,135
+always-on hiding+DVFS,0,integrated,10000,1682
+always-on hiding+DVFS,0,integrated,20000,915
+adaptive (median latency),2,pointwise,25,517
+adaptive (median latency),2,pointwise,50,2279
+adaptive (median latency),2,pointwise,100,72
+adaptive (median latency),2,pointwise,200,1379
+adaptive (median latency),2,pointwise,500,1290
+adaptive (median latency),2,pointwise,1000,2571
+adaptive (median latency),2,pointwise,2000,2403
+adaptive (median latency),2,pointwise,5000,55
+adaptive (median latency),2,pointwise,10000,1224
+adaptive (median latency),2,pointwise,20000,399
+adaptive (median latency),2,integrated,25,234
+adaptive (median latency),2,integrated,50,2172
+adaptive (median latency),2,integrated,100,816
+adaptive (median latency),2,integrated,200,1538
+adaptive (median latency),2,integrated,500,1862
+adaptive (median latency),2,integrated,1000,1895
+adaptive (median latency),2,integrated,2000,1679
+adaptive (median latency),2,integrated,5000,124
+adaptive (median latency),2,integrated,10000,1739
+adaptive (median latency),2,integrated,20000,882
+adaptive (worst observed latency),5,pointwise,25,606
+adaptive (worst observed latency),5,pointwise,50,2559
+adaptive (worst observed latency),5,pointwise,100,362
+adaptive (worst observed latency),5,pointwise,200,1093
+adaptive (worst observed latency),5,pointwise,500,1051
+adaptive (worst observed latency),5,pointwise,1000,2605
+adaptive (worst observed latency),5,pointwise,2000,2340
+adaptive (worst observed latency),5,pointwise,5000,53
+adaptive (worst observed latency),5,pointwise,10000,1204
+adaptive (worst observed latency),5,pointwise,20000,416
+adaptive (worst observed latency),5,integrated,25,574
+adaptive (worst observed latency),5,integrated,50,2248
+adaptive (worst observed latency),5,integrated,100,1587
+adaptive (worst observed latency),5,integrated,200,1264
+adaptive (worst observed latency),5,integrated,500,1736
+adaptive (worst observed latency),5,integrated,1000,1973
+adaptive (worst observed latency),5,integrated,2000,1586
+adaptive (worst observed latency),5,integrated,5000,124
+adaptive (worst observed latency),5,integrated,10000,1727
+adaptive (worst observed latency),5,integrated,20000,881

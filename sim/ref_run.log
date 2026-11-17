@@ -1,0 +1,18 @@
+[ref]
+ntt=130965
+invntt=205400
+basemul_acc=167521
+keypair=3032219
+encaps=3539514
+decaps=4363962
+kat_fnv=0xa3e59b3c
+ss_match=1
+dec_core=734308
+dec_core_masked=1204707
+masked_ok=1
+DONE
+EXIT code=0 cycles=13682062 ise_ops=0 ise_busy_cycles=0
+- ../tb/tb_soc.v:87: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 137ms; walltime 11.111 s; speed 12.315 ms/s
+- Verilator: cpu 10.879 s on 1 threads; allocated 4 MB

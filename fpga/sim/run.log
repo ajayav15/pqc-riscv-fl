@@ -1,0 +1,24 @@
+progress cyc=0 pc=00000000 led=0000
+keygen done, pk mismatches so far: 0
+progress cyc=2000000 pc=00007500 led=0001
+mode 0: decapsulation 1414212 cycles under trigger, errors so far 0
+progress cyc=4000000 pc=00000a7c led=0001
+mode 1: decapsulation 1452132 cycles under trigger, errors so far 0
+progress cyc=6000000 pc=000051f4 led=0001
+progress cyc=8000000 pc=000048e8 led=0001
+progress cyc=10000000 pc=00006e70 led=0001
+progress cyc=12000000 pc=0000669c led=0001
+progress cyc=14000000 pc=000055b8 led=0001
+mode 2: decapsulation 10591371 cycles under trigger, errors so far 0
+basemul window: 105 cycles under trigger, reply b
+TVLA target 0: 9390 cycles under trigger, reply t
+TVLA target 1: 373 cycles under trigger, reply t
+TVLA target 2: 24005 cycles under trigger, reply t
+TVLA target 3: 9457 cycles under trigger, reply t
+TVLA target 4: 14120 cycles under trigger, reply t
+TVLA target 5: 792 cycles under trigger, reply t
+RESULT PASS errors=0
+- tb_fpga.v:57: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 595ms; walltime 17.325 s; speed 34.340 ms/s
+- Verilator: cpu 11.007 s on 1 threads; allocated 4 MB

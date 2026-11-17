@@ -1,0 +1,15 @@
+WARNING: ../tb/tb_soc.v:58: $readmemh(../sw/build/kern_ise.hex): Not enough words in the file for the requested range [0:65535].
+[ise]
+ntt=40579
+invntt=45222
+basemul_acc=21684
+kern_fnv=0x3410227a
+[ise_mitig]
+ntt=47219
+invntt=46220
+basemul_acc=22382
+kern_fnv=0x3410227a
+dummy_ops=3932
+DONE
+EXIT code=0 cycles=981543 ise_ops=14324 ise_busy_cycles=55496
+../tb/tb_soc.v:87: $finish called at 9815435000 (1ps)

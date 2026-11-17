@@ -1,0 +1,23 @@
+MARK 256 @183422
+MARK 512 @224012
+WIN 0 cycles=40590 ifetch=7376 load=1154 store=1026 ise_ops=1023 ise_busy=3584 kk_en=0
+MARK 257 @224023
+MARK 513 @269248
+WIN 1 cycles=45225 ifetch=8309 load=1281 store=1027 ise_ops=1152 ise_busy=4608 kk_en=0
+MARK 258 @269259
+MARK 514 @290958
+WIN 2 cycles=21699 ifetch=3599 load=1152 store=128 ise_ops=512 ise_busy=3072 kk_en=0
+MARK 259 @290969
+MARK 515 @955585
+WIN 3 cycles=664616 ifetch=134431 load=17949 store=16057 ise_ops=7843 ise_busy=21128 kk_en=3348
+MARK 260 @955596
+MARK 516 @1783740
+WIN 4 cycles=828144 ifetch=166558 load=22931 store=17878 ise_ops=9664 ise_busy=30832 kk_en=3224
+MARK 261 @1783751
+MARK 517 @2949369
+WIN 5 cycles=1165618 ifetch=233417 load=33430 store=24372 ise_ops=13374 ise_busy=45680 kk_en=3224
+EXIT code=0 cycles=2950565 ise_ops=33568 ise_busy_cycles=108904
+- tb/tb_soc.v:203: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 30ms; walltime 3.366 s; speed 8.766 ms/s
+- Verilator: cpu 2.213 s on 1 threads; allocated 4 MB

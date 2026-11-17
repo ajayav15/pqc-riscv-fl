@@ -1,0 +1,88 @@
+variant,op,category,cycles,share
+ref,KeyGen,Keccak (SHA3/SHAKE),1859609,0.6132801756065
+ref,KeyGen,Modular reduction / poly add,493027,0.1625953010222826
+ref,KeyGen,NTT / INTT,313978,0.10354675793490872
+ref,KeyGen,Base multiplication,159752,0.05268458832662651
+ref,KeyGen,Matrix rejection sampling,74108,0.024440066300951708
+ref,KeyGen,CBD noise sampling,46492,0.015332589767148578
+ref,KeyGen,Compress / pack,46322,0.015276525492425716
+ref,KeyGen,memcpy / memset,38196,0.012596653160672955
+ref,KeyGen,"Other (hash glue, control)",750,0.0002473423884832107
+ref,Encaps,Keccak (SHA3/SHAKE),1818812,0.5138593925209485
+ref,Encaps,Modular reduction / poly add,781780,0.22087219343452053
+ref,Encaps,NTT / INTT,472135,0.1333898194469126
+ref,Encaps,Base multiplication,239628,0.06770083907023368
+ref,Encaps,Compress / pack,78629,0.02221463800245966
+ref,Encaps,Matrix rejection sampling,74096,0.020933953343298922
+ref,Encaps,CBD noise sampling,51491,0.014547481532063875
+ref,Encaps,memcpy / memset,12852,0.003631007994602647
+ref,Encaps,Verify / cmov,9216,0.0026037480297430747
+ref,Encaps,"Other (hash glue, control)",874,0.0002469266252165199
+ref,Decaps,Keccak (SHA3/SHAKE),1879987,0.4307986994372309
+ref,Decaps,Modular reduction / poly add,1108572,0.25402908415458725
+ref,Decaps,NTT / INTT,734155,0.16823149265677917
+ref,Decaps,Base multiplication,319504,0.07321428694187408
+ref,Decaps,Compress / pack,144040,0.03300674135881724
+ref,Decaps,Matrix rejection sampling,74096,0.016979085724263553
+ref,Decaps,CBD noise sampling,51491,0.0117991538413417
+ref,Decaps,Verify / cmov,39206,0.008984048192958822
+ref,Decaps,memcpy / memset,11781,0.0026996141346030678
+ref,Decaps,"Other (hash glue, control)",1125,0.0002577935575442196
+ise,KeyGen,Keccak (SHA3/SHAKE),1859609,0.7950668979971217
+ise,KeyGen,NTT / INTT,162354,0.06941367306644822
+ise,KeyGen,Matrix rejection sampling,74108,0.031684519528982005
+ise,KeyGen,Modular reduction / poly add,67785,0.02898115124240359
+ise,KeyGen,CBD noise sampling,46492,0.01987743134265439
+ise,KeyGen,Compress / pack,46322,0.019804748659004487
+ise,KeyGen,Base multiplication,43318,0.018520402884390923
+ise,KeyGen,memcpy / memset,38196,0.01633051638053917
+ise,KeyGen,"Other (hash glue, control)",750,0.0003206588984554502
+ise,Encaps,Keccak (SHA3/SHAKE),1818812,0.7452021882282759
+ise,Encaps,NTT / INTT,216845,0.08884555880781547
+ise,Encaps,Modular reduction / poly add,112904,0.04625893597563974
+ise,Encaps,Compress / pack,78629,0.03221581057206633
+ise,Encaps,Matrix rejection sampling,74096,0.03035855346179942
+ise,Encaps,Base multiplication,64977,0.026622324123938418
+ise,Encaps,CBD noise sampling,51491,0.02109685106215604
+ise,Encaps,memcpy / memset,12852,0.005265711092245819
+ise,Encaps,Verify / cmov,9216,0.0037759720997617074
+ise,Encaps,"Other (hash glue, control)",874,0.00035809457630118623
+ise,Decaps,Keccak (SHA3/SHAKE),1879987,0.6766551982415482
+ise,Decaps,NTT / INTT,343227,0.12353613813651469
+ise,Decaps,Modular reduction / poly add,146764,0.052824101185126586
+ise,Decaps,Compress / pack,144040,0.05184366421401456
+ise,Decaps,Base multiplication,86636,0.031182502727335224
+ise,Decaps,Matrix rejection sampling,74096,0.02666903737574023
+ise,Decaps,CBD noise sampling,51491,0.01853292220247031
+ise,Decaps,Verify / cmov,39206,0.014111237844867085
+ise,Decaps,memcpy / memset,11781,0.004240281922419506
+ise,Decaps,"Other (hash glue, control)",1125,0.0004049161499636655
+isek,KeyGen,Keccak (SHA3/SHAKE),185287,0.2787897299476988
+isek,KeyGen,NTT / INTT,162354,0.24428388292718156
+isek,KeyGen,Matrix rejection sampling,74108,0.11150566044549301
+isek,KeyGen,Modular reduction / poly add,67785,0.10199183884732746
+isek,KeyGen,CBD noise sampling,46492,0.06995359698591058
+isek,KeyGen,Compress / pack,46322,0.06969780864624774
+isek,KeyGen,Base multiplication,43318,0.06517787822067612
+isek,KeyGen,memcpy / memset,38196,0.05747112601036394
+isek,KeyGen,"Other (hash glue, control)",750,0.0011284779691007685
+isek,Encaps,NTT / INTT,216845,0.26184708791792655
+isek,Encaps,Keccak (SHA3/SHAKE),206252,0.24905571065622073
+isek,Encaps,Modular reduction / poly add,112904,0.13633509471874186
+isek,Encaps,Compress / pack,78629,0.0949469652327637
+isek,Encaps,Matrix rejection sampling,74096,0.08947322661978226
+isek,Encaps,Base multiplication,64977,0.07846175024392128
+isek,Encaps,CBD noise sampling,51491,0.0621769854226842
+isek,Encaps,memcpy / memset,12852,0.015519190084720384
+isek,Encaps,Verify / cmov,9216,0.011128606895485766
+isek,Encaps,"Other (hash glue, control)",874,0.001055382207753316
+isek,Decaps,NTT / INTT,343227,0.2944612692066815
+isek,Decaps,Keccak (SHA3/SHAKE),267244,0.22927394239925875
+isek,Decaps,Modular reduction / poly add,146764,0.12591175436037783
+isek,Decaps,Compress / pack,144040,0.12357478058698879
+isek,Decaps,Base multiplication,86636,0.07432674736833074
+isek,Decaps,Matrix rejection sampling,74096,0.06356843197982172
+isek,Decaps,CBD noise sampling,51491,0.04417515292421994
+isek,Decaps,Verify / cmov,39206,0.033635607107008345
+isek,Decaps,memcpy / memset,11781,0.01010715419394137
+isek,Decaps,"Other (hash glue, control)",1125,0.0009651598733710246

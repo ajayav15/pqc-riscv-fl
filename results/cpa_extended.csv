@@ -1,0 +1,49 @@
+config,attack,n_traces,rank
+hiding,pointwise,1000,1480
+hiding,pointwise,5000,2895
+hiding,pointwise,10000,3122
+hiding,pointwise,20000,87
+hiding,pointwise,50000,612
+hiding,pointwise,100000,5
+hiding,moving sum 16,1000,2398
+hiding,moving sum 16,5000,2752
+hiding,moving sum 16,10000,2603
+hiding,moving sum 16,20000,264
+hiding,moving sum 16,50000,765
+hiding,moving sum 16,100000,1725
+hiding,moving sum 48,1000,2982
+hiding,moving sum 48,5000,2435
+hiding,moving sum 48,10000,299
+hiding,moving sum 48,20000,47
+hiding,moving sum 48,50000,906
+hiding,moving sum 48,100000,1891
+hiding,whole window,1000,2509
+hiding,whole window,5000,1417
+hiding,whole window,10000,667
+hiding,whole window,20000,211
+hiding,whole window,50000,1178
+hiding,whole window,100000,2329
+hiding+dvfs,pointwise,1000,3300
+hiding+dvfs,pointwise,5000,2935
+hiding+dvfs,pointwise,10000,2467
+hiding+dvfs,pointwise,20000,2669
+hiding+dvfs,pointwise,50000,2523
+hiding+dvfs,pointwise,100000,1510
+hiding+dvfs,moving sum 16,1000,2530
+hiding+dvfs,moving sum 16,5000,2707
+hiding+dvfs,moving sum 16,10000,2118
+hiding+dvfs,moving sum 16,20000,2382
+hiding+dvfs,moving sum 16,50000,1582
+hiding+dvfs,moving sum 16,100000,685
+hiding+dvfs,moving sum 48,1000,2515
+hiding+dvfs,moving sum 48,5000,1213
+hiding+dvfs,moving sum 48,10000,749
+hiding+dvfs,moving sum 48,20000,2213
+hiding+dvfs,moving sum 48,50000,1527
+hiding+dvfs,moving sum 48,100000,1300
+hiding+dvfs,whole window,1000,2076
+hiding+dvfs,whole window,5000,1187
+hiding+dvfs,whole window,10000,582
+hiding+dvfs,whole window,20000,3090
+hiding+dvfs,whole window,50000,1599
+hiding+dvfs,whole window,100000,1521

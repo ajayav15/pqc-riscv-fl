@@ -1,0 +1,26 @@
+nodes,scheme,rekey_all_s,channel_bytes
+1,X25519 (classical),0.254,180
+1,ML-KEM-512 reference,0.185,2540
+1,ML-KEM-512 + ISE + Keccak,0.129,2540
+1,ISE + Keccak + detector (adaptive),0.133,2540
+10,X25519 (classical),0.38,1800
+10,ML-KEM-512 reference,1.584,25400
+10,ML-KEM-512 + ISE + Keccak,1.528,25400
+10,ISE + Keccak + detector (adaptive),1.532,25400
+25,X25519 (classical),0.582,4500
+25,ML-KEM-512 reference,3.848,63500
+25,ML-KEM-512 + ISE + Keccak,3.793,63500
+25,ISE + Keccak + detector (adaptive),3.797,63500
+50,X25519 (classical),0.92,9000
+50,ML-KEM-512 reference,7.623,127000
+50,ML-KEM-512 + ISE + Keccak,7.567,127000
+50,ISE + Keccak + detector (adaptive),7.571,127000
+100,X25519 (classical),1.595,18000
+100,ML-KEM-512 reference,15.172,254000
+100,ML-KEM-512 + ISE + Keccak,15.116,254000
+100,ISE + Keccak + detector (adaptive),15.12,254000
+1,FL round (int8 model up+down),0.229,5320
+10,FL round (int8 model up+down),2.29,53200
+25,FL round (int8 model up+down),5.725,133000
+50,FL round (int8 model up+down),11.45,266000
+100,FL round (int8 model up+down),22.899,532000

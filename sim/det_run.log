@@ -1,0 +1,56 @@
+MARK 1 @2624
+w0 lbl=0 c=-3036 py=-5044 cyc=376342
+w1 lbl=0 c=-3738 py=-4241 cyc=382409
+w2 lbl=0 c=-495 py=-580 cyc=386765
+w3 lbl=0 c=-5185 py=-5475 cyc=390542
+w4 lbl=0 c=-1121 py=-1331 cyc=393317
+w5 lbl=0 c=-3247 py=-3555 cyc=397681
+w6 lbl=0 c=-5188 py=-5315 cyc=401242
+w7 lbl=0 c=-3792 py=-3859 cyc=404789
+w8 lbl=0 c=-2202 py=-2382 cyc=407598
+w9 lbl=0 c=-3599 py=-3696 cyc=407470
+w10 lbl=0 c=-4637 py=-4705 cyc=407325
+w11 lbl=0 c=-3071 py=-2760 cyc=406693
+w12 lbl=0 c=-4668 py=-4645 cyc=406618
+w13 lbl=0 c=-3765 py=-3694 cyc=407382
+w14 lbl=0 c=-4210 py=-4229 cyc=407511
+w15 lbl=0 c=-4788 py=-4788 cyc=407256
+w16 lbl=1 c=5283 py=4868 cyc=406383
+w17 lbl=1 c=7941 py=7628 cyc=405331
+w18 lbl=1 c=4076 py=3760 cyc=406397
+w19 lbl=1 c=4454 py=3724 cyc=405403
+w20 lbl=1 c=11344 py=10886 cyc=405479
+w21 lbl=1 c=-1004 py=-1016 cyc=406497
+w22 lbl=1 c=1824 py=1772 cyc=405643
+w23 lbl=1 c=4229 py=3739 cyc=405424
+w24 lbl=0 c=-3989 py=-4038 cyc=407132
+w25 lbl=0 c=-6379 py=-6360 cyc=407377
+w26 lbl=0 c=-3333 py=-3512 cyc=406791
+w27 lbl=0 c=-3441 py=-3424 cyc=407517
+w28 lbl=0 c=-1772 py=-1883 cyc=407506
+w29 lbl=0 c=-4374 py=-4592 cyc=407465
+w30 lbl=0 c=-3353 py=-3463 cyc=407345
+w31 lbl=0 c=-3056 py=-3624 cyc=407497
+w32 lbl=1 c=-4919 py=-4758 cyc=407573
+w33 lbl=1 c=-5220 py=-5254 cyc=406644
+w34 lbl=1 c=-4299 py=-4270 cyc=406566
+w35 lbl=1 c=-4237 py=-4195 cyc=406557
+w36 lbl=1 c=-4723 py=-4696 cyc=407483
+w37 lbl=1 c=-4622 py=-4705 cyc=407545
+w38 lbl=1 c=-2840 py=-3972 cyc=407585
+w39 lbl=1 c=-3569 py=-3291 cyc=407451
+w40 lbl=0 c=-5392 py=-5602 cyc=406683
+w41 lbl=0 c=-1734 py=-1731 cyc=407537
+w42 lbl=0 c=-4220 py=-4220 cyc=407462
+w43 lbl=0 c=-4747 py=-4950 cyc=407559
+w44 lbl=0 c=-3758 py=-3704 cyc=407586
+w45 lbl=0 c=-2642 py=-2729 cyc=407512
+w46 lbl=0 c=-4399 py=-4483 cyc=407610
+w47 lbl=0 c=-4083 py=-4079 cyc=407508
+MARK 0 @19499010
+det_agree=48
+det_n=48
+det_avg_cycles=404437
+det_max_cycles=407610
+DONE
+EXIT code=0 cycles=19500833 ise_ops=0 ise_busy_cycles=0

@@ -1,0 +1,27 @@
+[ise]
+ntt=40579
+invntt=45222
+basemul_acc=21684
+keypair=664597
+encaps=828137
+decaps=1165615
+kat_fnv=0xa3e59b3c
+ss_match=1
+dec_core=247521
+dec_core_masked=411905
+masked_ok=1
+[ise_mitig]
+ntt=47168
+invntt=46202
+basemul_acc=22447
+keypair=692293
+encaps=846491
+decaps=1198663
+kat_fnv=0xa3e59b3c
+ss_match=1
+dec_core=262358
+dec_core_masked=427112
+masked_ok=1
+dummy_ops=20367
+DONE
+EXIT code=0 cycles=7556931 ise_ops=88610 ise_busy_cycles=317968

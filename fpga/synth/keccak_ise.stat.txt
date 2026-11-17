@@ -1,0 +1,28 @@
+
+3. Printing statistics.
+
+=== keccak_ise ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     2844 wires
+     8414 wire bits
+       38 public wires
+     1743 public wire bits
+       10 ports
+      134 port bits
+     5354 cells
+        1   BUFG
+        2   CARRY4
+     1648   FDRE
+       99   IBUF
+        2   INV
+        7   LUT2
+     1608   LUT3
+       12   LUT4
+     1927   LUT5
+       10   LUT6
+        2   MUXF7
+        1   MUXF8
+       35   OBUF
+

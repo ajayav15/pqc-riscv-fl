@@ -1,0 +1,12 @@
+full det_agree=48
+full det_n=48
+full det_avg_cycles=404437
+full det_max_cycles=407610
+noFFT det_agree=48
+noFFT det_n=48
+noFFT det_avg_cycles=242401
+noFFT det_max_cycles=245330
+lite det_agree=48
+lite det_n=48
+lite det_avg_cycles=198171
+lite det_max_cycles=200968

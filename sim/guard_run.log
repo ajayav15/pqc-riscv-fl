@@ -1,0 +1,7 @@
+rg_fresh=190
+rg_resend=1
+rg_near=9
+rg_false=0
+rg_avg_cycles=38015
+rg_max_cycles=38183
+EXIT code=0 cycles=21473625 ise_ops=0 ise_busy_cycles=0

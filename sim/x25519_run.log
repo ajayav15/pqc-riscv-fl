@@ -1,0 +1,9 @@
+x25519_keygen=12229322
+x25519_shared=12229314
+x25519_match=1
+DONE
+EXIT code=0 cycles=48922121 ise_ops=0 ise_busy_cycles=0
+- ../tb/tb_soc.v:87: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 489ms; walltime 38.168 s; speed 12.817 ms/s
+- Verilator: cpu 37.769 s on 1 threads; allocated 4 MB

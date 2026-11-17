@@ -1,0 +1,8 @@
+hiding pointwise [1480, 2895, 3122, 87, 612, 5]
+hiding moving sum 16 [2398, 2752, 2603, 264, 765, 1725]
+hiding moving sum 48 [2982, 2435, 299, 47, 906, 1891]
+hiding whole window [2509, 1417, 667, 211, 1178, 2329]
+dvfs pointwise [3300, 2935, 2467, 2669, 2523, 1510]
+dvfs moving sum 16 [2530, 2707, 2118, 2382, 1582, 685]
+dvfs moving sum 48 [2515, 1213, 749, 2213, 1527, 1300]
+dvfs whole window [2076, 1187, 582, 3090, 1599, 1521]

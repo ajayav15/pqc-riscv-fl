@@ -1,0 +1,31 @@
+[ise]
+ntt=40579
+invntt=45222
+basemul_acc=21684
+keypair=2338919
+encaps=2440697
+decaps=2778358
+kat_fnv=0xa3e59b3c
+ss_match=1
+dec_core=247521
+dec_core_masked=411905
+masked_ok=1
+[ise_mitig]
+ntt=47168
+invntt=46202
+basemul_acc=22447
+keypair=2366737
+encaps=2458948
+decaps=2811390
+kat_fnv=0xa3e59b3c
+ss_match=1
+dec_core=262380
+dec_core_masked=427041
+masked_ok=1
+dummy_ops=20340
+DONE
+EXIT code=0 cycles=17356435 ise_ops=72652 ise_busy_cycles=314130
+- ../tb/tb_soc.v:87: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 174ms; walltime 14.156 s; speed 12.261 ms/s
+- Verilator: cpu 14.021 s on 1 threads; allocated 4 MB

@@ -1,0 +1,5 @@
+variant,op,cycles,logic_uJ,sram_accesses,total_uJ,avg_power_mW,source
+isek_masked2,Decaps,1165618,65.8391,291219,68.7513,5.898,gsim zero-delay
+isek_masked2_cg,Decaps,1165618,65.8391,291219,54.6974,4.693,gsim zero-delay + clock-gating correction
+isek_masked2,MaskedDecaps,23978346,1349.2064,6203451,1411.2409,5.885,gsim zero-delay
+isek_masked2_cg,MaskedDecaps,23978346,1349.2064,6203451,1121.3492,4.677,gsim zero-delay + clock-gating correction

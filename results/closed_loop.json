@@ -1,0 +1,125 @@
+{
+ "rule": {
+  "k": 2,
+  "n": 4,
+  "hold": 500
+ },
+ "benign": {
+  "window_fpr": 0.00018,
+  "mitigation_on_fraction": 0.05008,
+  "per_node_on_fraction": [
+   0.0,
+   0.1002,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.1002,
+   0.1002,
+   0.1002,
+   0.1
+  ]
+ },
+ "latency_windows": {
+  "CC": {
+   "detected": 1.0,
+   "median": 2.0,
+   "p95": 2.0,
+   "max": 2
+  },
+  "CC_evasive": {
+   "detected": 1.0,
+   "median": 2.0,
+   "p95": 2.0,
+   "max": 4
+  },
+  "REP": {
+   "detected": 1.0,
+   "median": 2.0,
+   "p95": 3.0,
+   "max": 4
+  },
+  "REP_evasive": {
+   "detected": 0.68,
+   "median": 23.0,
+   "p95": 273.1999999999998,
+   "max": 335
+  },
+  "EMP": {
+   "detected": 1.0,
+   "median": 2.0,
+   "p95": 2.549999999999997,
+   "max": 3
+  },
+  "EMP_evasive": {
+   "detected": 1.0,
+   "median": 2.0,
+   "p95": 4.0,
+   "max": 5
+  },
+  "GLT": {
+   "detected": 1.0,
+   "median": 2.0,
+   "p95": 2.0,
+   "max": 3
+  },
+  "GLT_evasive": {
+   "detected": 1.0,
+   "median": 3.0,
+   "p95": 6.0,
+   "max": 9
+  }
+ },
+ "energy_uJ_per_decaps": {
+  "ISE, unprotected": 98.4867,
+  "ISE, always-on hiding+DVFS": 99.7657,
+  "ISE, adaptive hiding, detector every decaps": 110.60075232,
+  "ISE, adaptive hiding, detector every 4th decaps": 101.56325232,
+  "ISE+Keccak, unprotected": 64.2563,
+  "ISE+Keccak, always-on hiding+DVFS": 66.1686,
+  "ISE+Keccak, adaptive hiding, detector every decaps": 86.662067984,
+  "ISE+Keccak, adaptive hiding, detector every 4th decaps": 69.929567984,
+  "ISE+Keccak+PRNG, unprotected (same netlist as masked)": 68.1326,
+  "ISE+Keccak, always-on first-order masking (measured)": 509.1832,
+  "ISE+Keccak, adaptive masking, detector every decaps": 112.530414048,
+  "ISE+Keccak, adaptive masking, detector every 4th decaps": 95.797914048,
+  "Final (ISE+gated Keccak), unprotected": 50.2024,
+  "Final (ISE+gated Keccak), always-on hiding+DVFS": 51.7165,
+  "Final (ISE+gated Keccak), adaptive hiding, detector every decaps": 67.70822612799999,
+  "Final (ISE+gated Keccak), adaptive hiding, detector every 4th decaps": 54.635726128,
+  "Final (ISE+gated Keccak)+PRNG, unprotected (same netlist as masked)": 54.6974,
+  "Final (ISE+gated Keccak), always-on masking v2 (measured)": 1121.3492,
+  "Final (ISE+gated Keccak), adaptive masking v2, detector every decaps": 125.545322144,
+  "Final (ISE+gated Keccak), adaptive masking v2, detector every 4th decaps": 112.472822144,
+  "Reference (no ISE), unprotected": 129.7863
+ },
+ "detector": {
+  "avg_cycles": "404437",
+  "max_cycles": "407610",
+  "c_vs_python_agreement": "48/48",
+  "core_pJ_per_cycle": "29.8",
+  "uJ_per_window": "12.05",
+  "ms_per_window_100MHz": "4.04",
+  "pct_of_ise_decaps_cycles": "14.6",
+  "isek_pJ_per_cycle": "55.15",
+  "uJ_per_window_isek": "22.31",
+  "pct_of_isek_decaps_cycles": "34.7",
+  "isek_cg_pJ_per_cycle": "43.11",
+  "uJ_per_window_isek_cg": "17.43"
+ },
+ "note_sampling": "evaluating every k-th decapsulation divides the detector energy by k and multiplies the detection latency (in decapsulations) by about k",
+ "break_even": {
+  "ISE: hiding break-even detector energy (uJ)": 1.2149476799999965,
+  "ISE: detector energy per window (uJ)": 12.05,
+  "ISE+Keccak: hiding break-even detector energy (uJ)": 1.8165320160000018,
+  "ISE+Keccak: masking break-even detector energy (uJ)": 418.96278595200005,
+  "ISE+Keccak: adaptive masking saving vs always-on, k=1 (%)": 77.89981797357022,
+  "ISE+Keccak: adaptive masking saving vs always-on, k=4 (%)": 81.18596331379354,
+  "ISE+Keccak: detector energy per window (uJ)": 22.31,
+  "Final (ISE+gated Keccak): hiding break-even detector energy (uJ)": 1.438273872000006,
+  "Final (ISE+gated Keccak): masking break-even detector energy (uJ)": 1013.233877856,
+  "Final (ISE+gated Keccak): adaptive masking saving vs always-on, k=1 (%)": 88.80408331820276,
+  "Final (ISE+gated Keccak): adaptive masking saving vs always-on, k=4 (%)": 89.96986646586095,
+  "Final (ISE+gated Keccak): detector energy per window (uJ)": 17.43
+ }
+}

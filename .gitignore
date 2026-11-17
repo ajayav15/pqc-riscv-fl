@@ -1,0 +1,14 @@
+__pycache__/
+sim/leak/*/
+sim/obj*/
+sim/gate/
+sim/tvla/
+sim/gsim/gsim*
+!sim/gsim/gsim.cpp
+sw/build/
+syn/out*/
+data/*.npz
+data/ascad/
+*.bin
+*.elf
+*.hex

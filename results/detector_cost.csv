@@ -1,0 +1,2 @@
+avg_cycles,max_cycles,c_vs_python_agreement,core_pJ_per_cycle,uJ_per_window,ms_per_window_100MHz,pct_of_ise_decaps_cycles,isek_pJ_per_cycle,uJ_per_window_isek,pct_of_isek_decaps_cycles,isek_cg_pJ_per_cycle,uJ_per_window_isek_cg
+404437,407610,48/48,29.8,12.05,4.04,14.6,55.15,22.31,34.7,43.11,17.43

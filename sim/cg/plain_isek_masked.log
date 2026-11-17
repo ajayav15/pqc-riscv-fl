@@ -1,0 +1,11 @@
+MARK 261 @1692732
+MARK 517 @2858350
+WIN 5 cycles=1165618 ifetch=233417 load=33430 store=24372 ise_ops=13374 ise_busy=45680 kk_en=3224
+MARK 262 @2858361
+MARK 518 @11498101
+WIN 6 cycles=8639740 ifetch=1856158 load=216190 store=113956 ise_ops=73595 ise_busy=83232 kk_en=1488
+EXIT code=0 cycles=11500548 ise_ops=105021 ise_busy_cycles=180872
+- tb/tb_soc.v:203: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 115ms; walltime 13.769 s; speed 8.353 ms/s
+- Verilator: cpu 9.011 s on 1 threads; allocated 4 MB

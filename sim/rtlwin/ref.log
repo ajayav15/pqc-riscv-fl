@@ -1,0 +1,7 @@
+WIN 0 cycles=130976 ifetch=26702 load=3087 store=2064 ise_ops=0 ise_busy=0
+WIN 1 cycles=205403 ifetch=42946 load=3084 store=2957 ise_ops=0 ise_busy=0
+WIN 2 cycles=167536 ifetch=32619 load=4765 store=3101 ise_ops=0 ise_busy=0
+WIN 3 cycles=3032238 ifetch=633394 load=84701 store=59859 ise_ops=0 ise_busy=0
+WIN 4 cycles=3539521 ifetch=738459 load=92436 store=66634 ise_ops=0 ise_busy=0
+WIN 5 cycles=4363965 ifetch=907656 load=112228 store=80118 ise_ops=0 ise_busy=0
+EXIT code=0 cycles=11624293 ise_ops=0 ise_busy_cycles=0

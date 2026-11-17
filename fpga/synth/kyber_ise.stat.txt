@@ -1,0 +1,32 @@
+
+4. Printing statistics.
+
+=== kyber_ise ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     2265 wires
+     4378 wire bits
+       54 public wires
+      648 public wire bits
+       12 ports
+      136 port bits
+     1826 cells
+        1   $scopeinfo
+        1   BUFG
+      149   CARRY4
+        2   DSP48E1
+      374   FDRE
+       81   FDSE
+       99   IBUF
+      127   INV
+      284   LUT2
+       87   LUT3
+      189   LUT4
+      200   LUT5
+      179   LUT6
+        8   MUXF7
+        4   MUXF8
+       37   OBUF
+        4   SRL16E
+

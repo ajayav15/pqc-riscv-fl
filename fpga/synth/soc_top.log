@@ -1,0 +1,4 @@
+Warning: Replacing memory \B with list of registers. See ../../rtl/keccak_ise.v:88, ../../rtl/keccak_ise.v:84
+Warning: Replacing memory \D with list of registers. See ../../rtl/keccak_ise.v:84, ../../rtl/keccak_ise.v:80
+Warning: Replacing memory \C with list of registers. See ../../rtl/keccak_ise.v:80, ../../rtl/keccak_ise.v:79
+Warning: Replacing memory \A with list of registers. See ../../rtl/keccak_ise.v:79, ../../rtl/keccak_ise.v:78

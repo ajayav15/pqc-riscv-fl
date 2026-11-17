@@ -1,0 +1,12 @@
+0 full 0.903 0.0067 0.855
+0 noFFT 0.895 0.007 0.855
+0 lite 0.893 0.0102 0.854
+1 full 0.928 0.0061 0.872
+1 noFFT 0.917 0.007 0.858
+1 lite 0.916 0.0064 0.855
+2 full 0.921 0.0098 0.924
+2 noFFT 0.916 0.008 0.922
+2 lite 0.912 0.0153 0.928
+full {'nin': 38.0, 'macs': 1744.0, 'f1': 0.917, 'auc': 0.963, 'fpr': 0.008, 'tpr_unseen': 0.884, 'tpr_CC': 0.997, 'tpr_REP': 0.62, 'tpr_EMP': 0.893, 'tpr_GLT': 0.864, 'tpr_REP_evasive': 0.178, 'tpr_EMP_evasive': 0.832, 'tpr_GLT_evasive': 0.721}
+noFFT {'nin': 30.0, 'macs': 1488.0, 'f1': 0.91, 'auc': 0.96, 'fpr': 0.007, 'tpr_unseen': 0.878, 'tpr_CC': 0.998, 'tpr_REP': 0.634, 'tpr_EMP': 0.838, 'tpr_GLT': 0.855, 'tpr_REP_evasive': 0.25, 'tpr_EMP_evasive': 0.741, 'tpr_GLT_evasive': 0.713}
+lite {'nin': 28.0, 'macs': 1424.0, 'f1': 0.907, 'auc': 0.96, 'fpr': 0.011, 'tpr_unseen': 0.879, 'tpr_CC': 0.998, 'tpr_REP': 0.616, 'tpr_EMP': 0.847, 'tpr_GLT': 0.86, 'tpr_REP_evasive': 0.177, 'tpr_EMP_evasive': 0.754, 'tpr_GLT_evasive': 0.716}

@@ -1,0 +1,13 @@
+scheme,node_cycles,node_compute_ms,node_compute_uJ,energy_source,bytes_up,bytes_down,frames,air_bytes,radio_ms,node_radio_mJ,handshake_latency_ms,node_total_mJ,compute_share_%
+X25519 (classical),24458636,244.59,728.8,estimate,32,32,2,180,9.02,0.331,253.61,1.06,68.78
+ML-KEM-512 reference,7396203,73.96,220.4,gate-level,800,768,18,2540,110.66,4.574,184.62,4.794,4.6
+ML-KEM-512 + Kyber ISE,5117299,51.17,181.7,gate-level,800,768,18,2540,110.66,4.574,161.83,4.756,3.82
+ML-KEM-512 + ISE + Keccak,1830234,18.3,100.9,gate-level,800,768,18,2540,110.66,4.574,128.96,4.675,2.16
+"ISE + Keccak, hiding always on",1890938,18.91,104.5,gate-level,800,768,18,2540,110.66,4.574,129.57,4.678,2.23
+"ISE + Keccak, masking v1 always on",9304356,93.04,545.9,gate-level,800,768,18,2540,110.66,4.574,203.7,5.12,10.66
+ISE + Keccak + detector (adaptive),2234671,22.35,123.3,gate-level + detector,800,768,18,2540,110.66,4.574,133.0,4.697,2.62
+Final: ISE + gated Keccak,1830234,18.3,78.9,gate-level + CG,800,768,18,2540,110.66,4.574,128.96,4.653,1.7
+"Final, hiding always on",1890938,18.91,81.7,gate-level + CG,800,768,18,2540,110.66,4.574,129.57,4.655,1.75
+"Final, masking v2 always on",24642962,246.43,1150.0,gsim + CG,800,768,18,2540,110.66,4.574,357.09,5.724,20.09
+Final + detector (adaptive),2234671,22.35,96.3,gate-level + CG + detector,800,768,18,2540,110.66,4.574,133.0,4.67,2.06
+Hybrid X25519 + ML-KEM-512 (final),26288870,262.89,807.7,mixed,832,800,18,2604,112.7,4.685,375.59,5.493,14.7
